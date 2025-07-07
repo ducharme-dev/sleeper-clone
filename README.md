@@ -1,60 +1,12 @@
-# Sleeper Clone – Fantasy Football Web App
+# React + Vite
 
-This is a work-in-progress fantasy football web app inspired by Sleeper. I'm building it as a learning project to gain real-world experience with full-stack development, multiplayer architecture, and real-time systems.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🎯 Project Goals
+Currently, two official plugins are available:
 
-- Build an MVP fantasy football platform for a single league
-- Implement real-time draft, matchup scheduling, and scoring
-- Use Firebase or a custom backend for authentication and data
-- Explore Elixir and Phoenix for scalable backend features
-- Document my progress weekly via blog
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🧱 Tech Stack
+## Expanding the ESLint configuration
 
-- **Frontend**: React (Vite)
-- **Backend**: Firebase Functions or Node.js (early), Elixir/Phoenix (later)
-- **Database**: Firestore or PostgreSQL
-- **Real-time**: Firebase listeners or Socket.io
-- **API**: Sleeper Public API
-- **Hosting**: Vercel + Render
-
-## ✅ Features (MVP)
-
-- User registration and login
-- Create/join league
-- Snake-style draft system
-- Set weekly lineup
-- Matchups and standings
-- Manual or API-based scoring
-
-## 🚧 Features (Future)
-
-- Live chat
-- Trades and waivers
-- Commissioner tools
-- Multi-league support
-
-## 🧠 Why I'm Building This
-
-I’m using this project to:
-- Build my coding portfolio
-- Practice scalable backend and real-time systems
-- Prepare for roles like backend engineer/developer
-- Document my growth as a developer
-
-## 🗓️ Timeline
-
-| Phase | Tasks |
-|-------|-------|
-| ✅ Week 1 | GitHub + Blog setup |
-| 🔄 Week 2 | League system + player pool |
-| 🔜 Week 3 | Draft system + real-time |
-| 🔜 Week 4 | Lineup setting + scoring |
-
-## 🧪 Live Preview (coming soon)
-
-## 📬 Contact / Updates
-
-- [My Blog](#) ← Add once live
-- [GitHub Profile](https://github.com/ducharme-dev)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
